@@ -21,10 +21,9 @@ public class _if {
 
         // 2번
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//
+
 //        int a = Integer.parseInt(br.readLine());
 //        System.out.println((a>=90)? "A" : (a>=80)? "B" : (a>=70)? "C": (a>=60)? "D":"E");
-        // 0이상 100이하?
 
         // 3번
 //         int a = Integer.parseInt(br.readLine());
@@ -49,19 +48,19 @@ public class _if {
 //        }
 
         // 5번
-        int h = Integer.parseInt(br.readLine());
-        int m = Integer.parseInt(br.readLine());
-
-        if(m>45){
-            System.out.println(h+"시 "+m+"분");
-        } else if(m<45){
-            h--;
-            int r = m+60-45;
-            if(h<0){
-                h=23;
-            }
-            System.out.println(h+"시 "+r+"분");
-        }
+//        int h = Integer.parseInt(br.readLine());
+//        int m = Integer.parseInt(br.readLine());
+//
+//        if(m>45){
+//            System.out.println(h+"시 "+m+"분");
+//        } else if(m<45){
+//            h--;
+//            int r = m+60-45;
+//            if(h<0){
+//                h=23;
+//            }
+//            System.out.println(h+"시 "+r+"분");
+//        }
 
 
 
