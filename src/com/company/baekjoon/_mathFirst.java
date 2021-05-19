@@ -9,8 +9,8 @@ import java.util.StringTokenizer;
 
 public class _mathFirst {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        StringTokenizer st = new StringTokenizer(br.readLine());
 
         // 달팽이
 //        int A = Integer.parseInt(st.nextToken());
@@ -38,7 +38,7 @@ public class _mathFirst {
 //        int[][] apt = new int[15][15];
 //
 //        for(int i = 0; i<15; i++){
-//            apt[i][0] = 1;
+//            apt[i][1] = 1;
 //            apt[0][i] = i;
 //        }
 //
