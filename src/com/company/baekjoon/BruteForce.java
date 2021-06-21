@@ -26,7 +26,7 @@ public class BruteForce {
         int n = Integer.parseInt(br.readLine());
         int len = String.valueOf(n).length();
 
-        int
+
 
     }
 
