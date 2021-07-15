@@ -22,12 +22,6 @@ public class BruteForce {
         int result = search(arr, N, M);
         System.out.println(result);
 
-        // 분해합
-        int n = Integer.parseInt(br.readLine());
-        int len = String.valueOf(n).length();
-
-
-
     }
 
     static int search(int[] arr, int N, int M) {

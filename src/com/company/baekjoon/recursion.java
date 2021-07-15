@@ -49,7 +49,6 @@ public class recursion {
         return fibo(N-1) + fibo(N-2);
     }
     public static void Hanoi(int N, int start, int mid, int to) {
-        // 이동할 원반의 수가 1개라면?
         StringBuilder sb = new StringBuilder();
 
         if (N == 1) {
