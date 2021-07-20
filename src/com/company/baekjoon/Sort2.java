@@ -4,12 +4,13 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Comparator;
 
+//이름나이순정렬
 public class Sort2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        int N = sc.nextInt(); // ㅁㅕㅊ명?
+        int N = sc.nextInt(); // 몇명?
         String[][] arr = new String[N][2];
 
 
@@ -27,6 +28,8 @@ public class Sort2 {
             }
 
         });
+
+        // stable sort를 써줘야한다.
 
         for(int i = 0; i < N; i++) {
             System.out.println(arr[i][0] + " " + arr[i][1]);

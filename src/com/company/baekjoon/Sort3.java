@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Comparator;
 
-
+//단어순정렬
 public class Sort3 {
     public static void main(String[] args) {
 
@@ -18,7 +18,7 @@ public class Sort3 {
         for (int i = 0; i < N; i++) {
             arr[i] = sc.nextLine();
         }
-
+        //양수면 순서 바꿔준다.
         Arrays.sort(arr, new Comparator<String>() {
             public int compare(String s1, String s2) {
                 if (s1.length() == s2.length()) {
